@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "scripts": {
-    "build": "npm install && cd server && npm install",
-    "start": "node server/index.js",
-    "dev": "vite",
-    "server": "node server/index.js",
-    "server:dev": "node --watch server/index.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run server:dev\""
-  },
+ "scripts": {
+  "build": "vite build",
+  "dev": "vite",
+  "preview": "vite preview",
+  "server": "node server/index.js",
+  "server:dev": "node --watch server/index.js",
+  "dev:all": "concurrently \"npm run dev\" \"npm run server:dev\""
+},
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
