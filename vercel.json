@@ -20,7 +20,7 @@
     }
   ],
   "env": {
-    "VITE_API_URL": "https://clubpartygame-ubh9.onrender.com"
+    "VITE_API_URL": "https://clubpartygame-ubh9.onrender.com/api"
   }
 }
 
